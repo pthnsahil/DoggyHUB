@@ -1,0 +1,32 @@
+.article{
+   background-image:url("./public/banner.jpg");
+   opacity: 0.6;
+    overflow: hidden;
+    width: 100%;
+}
+.about_content{
+    
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin-top:180px;
+}
+.about_content1{
+
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin-top: 380px;
+}

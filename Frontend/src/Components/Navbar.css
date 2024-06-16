@@ -1,0 +1,35 @@
+.navbar-custom {
+    background-color: #003366;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white ;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link.active{
+    color: goldenrod; 
+    font-weight: bold; 
+   
+  }
+  .navbar-custom .nav-link:hover {
+    color:red;
+  }
+  .donate{
+    background-color: goldenrod;
+    color: white;
+
+  }  
+  .donate:hover{
+    transform: scale(1.05);
+  }
+  @media (max-width: 992px) {
+    .navbar-custom .navbar-nav .nav-link {
+      font-size: 1.25rem; 
+      text-align: center;
+      margin: 0.5rem 0; 
+    }
+  }
+  
